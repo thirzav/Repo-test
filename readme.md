@@ -53,16 +53,24 @@ En la página de Github creamos un repositorio remoto. Damos al '+', 'new reposi
   
 **\*añadir image 11 y 12**  
 
-Añadimos las líneas en la terminal de Visual Studio Code para asociar el repositorio remoto al repositorio local.
+Añadimos las líneas en la terminal de Visual Studio Code para asociar el repositorio remoto al repositorio local.  
+  
+**\*añadir image 13**
 
 ## 1.7 Git remote -v  
 
-Ahora que hemos creado y asociado el repositorio remoto, al hacer el comando 'git remote -v' aparece.  
+Ahora que hemos creado y asociado el repositorio remoto, al hacer el comando 'git remote -v' aparece . 
+
+**\*añadir image 14** 
 
 ## 1.8 Subir cambios al repositorio remoto  
 
-Para subir los cambios hacemos un 'git add .' para incluir todos los documentos. Luego un git commit -m "My first commit". Y para subirlo un 'git push -u origin main'.  
+Para subir los cambios hacemos un 'git add .' para incluir todos los documentos. Luego un git commit -m "añadir documento readme". Y para subirlo un 'git push -u origin main'.  
+  
+**\*añadir image 15  
 
 ## 1.9 Comprobar repositorio remoto  
 
-Vemos el commit.
+Vemos el commit en el repositorio remoto (ahora ya aparecen más commits en el documento, los cuales he ido haciendo mientras escribía este documento).  
+  
+**\*añadir image 16**
