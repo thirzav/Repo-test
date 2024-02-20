@@ -28,4 +28,30 @@ Luego hacemos un git status y vemos lo siguiente:
 Hacemos el comando 'git commit -m "añadir documento readme".  
 \*Añadir foto  
 
-El fichero se encuentra ahora en la caja de committed del File status Lifecycle.
+El fichero se encuentra ahora en la caja de committed del File status Lifecycle.  
+
+## 1.4 Subir ficheros al repositorio remoto  
+
+No se puede subir todavía, porque no está asociado a un repositorio remoto.  
+
+## 1.5 Git remote -v  
+
+Como no hay un repositorio asociado no aparece nada.  
+
+## 1.6 Crear repositorio remoto  
+
+En la página de Github creamo un repositorio remoto. Damos al +, 'new repository', le damos un nombre y lo creamos. Vamos a code y copiamos las líneas.  
+
+Añadimos las líneas en la terminal de Visual Studio Code para asociar el repositorio remoto al repositorio local.
+
+## 1.7 Git remote -v  
+
+Ahora que hemos creado y asociado el repositorio remoto, al hacer el comando 'git remote -v' aparece.  
+
+## 1.8 Subir cambios al repositorio remoto  
+
+Para subir los cambios hacemos un 'git add .' para incluir todos los documentos. Luego un git commit -m "My first commit". Y para subirlo un 'git push -u origin main'.  
+
+## 1.9 Comprobar repositorio remoto  
+
+Vemos el commit.
