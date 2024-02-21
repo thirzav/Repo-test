@@ -1,10 +1,10 @@
 # Ejercicio 1  
 ## 1.1 Crear directorio llamado Repo Test:  
-Abrimos git bash y hacemos comando 'pwd' para ver dónde nos posicionamos. Después vemos el contenido del directorio utilizando el comando 'ls':   
+Abrimos **git bash** y hacemos comando **pwd** para ver dónde nos posicionamos. Después vemos el contenido del directorio utilizando el comando **ls**:   
   
 ![alt text](<imagenes repo test 1/Image 1.png>)
   
-Nos dirigimos a la carpeta donde queremos trabajar usando en este caso: **cd OneDrive**, **cd Documentos/**, **cd Bootcamp Java1/** ***(tab para autocompletar)***:  
+Nos dirigimos a la carpeta donde queremos trabajar usando en este caso: **cd OneDrive**, **cd Documentos/**, **cd Bootcamp Java1/** *(tab para autocompletar)*:  
 
 ![alt text](<imagenes repo test 1/Image 2.png>)  
 
@@ -17,7 +17,7 @@ Para poder trabajar con un repositorio local y remoto tenemos que configurar use
 - **git config, git config user.email "thirzavisser95@gmail.com"** 
   ![alt text](<imagenes repo test 1/Image 4.png>)
   
-Entramos en la carpeta Repo test, ***cd Repo test/***, y hacemos un comando **git init** para inicializar el repositorio local.
+Entramos en la carpeta Repo test, *cd Repo test/*, y hacemos un comando **git init** para inicializar el repositorio local.
   
 ![alt text](<imagenes repo test 1/Image 5.png>)
 
@@ -25,11 +25,11 @@ Podemos identificar que el repositorio se ha inicializado correctamente visualiz
   
 ![alt text](<imagenes repo test 1/Image 6.png>)
 
-Si se ejecuta el comando **git log**, se puede ver que todavía no hay commits y con **el git status** vemos que no hay nada para hacer commit.
+Si ejecutamos el comando **git log**, podemos ver que todavía no hay commits y con **el git status** vemos que no hay nada para hacer commit.
 
 ## 1.2 Añadir documento readme.md  
 
-He abierto Visual Studio Code utilizando el comando **code .** y he añadido un documento readme donde estoy documentando ahora todos los cambios que hacemos.  
+Abrimos Visual Studio Code utilizando el comando **code .** y añadimos un documento readme donde estoy documentando ahora todos los cambios que hacemos.  
   
 ![alt text](<imagenes repo test 1/Image 7.png>)
 
