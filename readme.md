@@ -35,34 +35,40 @@ He abierto Visual Studio Code utilizando el comando **code .** y he añadido un 
 
 ## 1.3 Añadir el readme.me al staging area  
 
-Podemos añadir el documento readme.md al ***staging area*** utilizando el comando **git add readme.md**.  
+Podemos añadir el documento readme.md al *staging area* utilizando el comando **git add readme.md**.  
 
 Luego hacemos un **git status** y vemos lo siguiente (ver imagen abajo), hacemos el comando **git commit -m "añadir documento readme"**.  
 
 ![alt text](<imagenes repo test 1/Image 8.png>)   
 
-El fichero se encuentra ahora en la caja de ***committed del File status Lifecycle***.  
-
+El fichero se encuentra ahora en la caja de *committed del File status Lifecycle*.  
+  
+Podemos comprobar que el fichero está en el *staging area* empleando el comando **git status**:  
+  
+![alt text](<imagenes repo test 1/Image 9a.png>)
+  
 ## 1.4 Subir ficheros al repositorio remoto  
 
-No se puede subir todavía, porque no está asociado a un repositorio remoto ***(pongo un ejemplo de RepoEx01, el proceso es el mismo, sólo cambian los nombres que hemos puesto)***:  
+Para subir un fichero al repositorio remoto utilizamos el comando **git push**. En este caso no podemos subir el fichero al repositorio remoto todavía, porque no está asociado a ninguno *(pongo un ejemplo de RepoEx01, el proceso es el mismo, sólo cambian los nombres que hemos puesto, ya que en Repo test ya lo tenía asociado)*:  
   
-![alt text](<imagenes repo test 1/Image 9.png>)  
+![alt text](<imagenes repo test 1/Image 9b.png>) 
   
 En la imagen podemos ver que al hacer el **git push** nos dice: ***fatal***. Nos responde así, porque no tiene un repositorio remoto asociado así que no ha podido completar este comando.  
 
 ## 1.5 Git remote -v  
 
-Como no hay un repositorio asociado no aparece nada.  
+Como no hay un repositorio asociado no aparece nada al hacer el comando **git remote -v** *(que normalmente muestra con que repositorio remoto está asociado el repositorio local)*.  
   
 ![alt text](<imagenes repo test 1/Image 10.png>)
 
 ## 1.6 Crear repositorio remoto  
 
-En la página de Github creamos un repositorio remoto. Damos al '+', 'new repository', le damos un nombre y lo creamos. Vamos a 'code' y copiamos las líneas.  
+En la página de **Github** creamos un repositorio remoto. Damos al **+**, **new repository**:   
   
 ![alt text](<imagenes repo test 1/Image 11.png>)  
   
+Damos un nombre al repositorio y lo creamos. Vamos a **code** y copiamos las líneas:
+
 ![alt text](<imagenes repo test 1/Image 12.png>)  
 
 Añadimos las líneas en la terminal de Visual Studio Code para asociar el repositorio remoto al repositorio local.  
@@ -71,18 +77,18 @@ Añadimos las líneas en la terminal de Visual Studio Code para asociar el repos
 
 ## 1.7 Git remote -v  
 
-Ahora que hemos creado y asociado el repositorio remoto, al hacer el comando 'git remote -v' aparece . 
+Ahora que hemos creado y asociado el repositorio remoto, al hacer el comando **git remote -v** aparece: 
 
 ![alt text](<imagenes repo test 1/Image 14.png>)
 
 ## 1.8 Subir cambios al repositorio remoto  
 
-Para subir los cambios hacemos un 'git add .' para incluir todos los documentos. Luego un git commit -m "añadir documento readme". Y para subirlo un 'git push -u origin main'.  
+Para subir los cambios hacemos un **git add .** para incluir todos los documentos. Luego un **git commit -m "añadir documento readme"**. Y para subirlo un **git push -u origin main**.  
   
 ![alt text](<imagenes repo test 1/Image 15.png>)
 
 ## 1.9 Comprobar repositorio remoto  
 
-Vemos el commit en el repositorio remoto (ahora ya aparecen más commits en el documento, los cuales he ido haciendo mientras escribía este documento).  
+Para comprobar que el fichero ha subido correctamente vemos el commit en el repositorio remoto *(ahora ya aparecen más commits en la imagen, los cuales he ido haciendo mientras escribía este documento)*.  
   
 ![alt text](<imagenes repo test 1/Image 16.png>)
