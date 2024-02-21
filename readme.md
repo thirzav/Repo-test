@@ -39,7 +39,7 @@ Podemos añadir el documento readme.md al *staging area* utilizando el comando *
 
 Luego hacemos un **git status** y vemos lo siguiente (ver imagen abajo), hacemos el comando **git commit -m "añadir documento readme"**.  
 
-![alt text](<imagenes repo test 1/Image 8.png>)   
+![alt text](<imagenes repo test 1/Image 8a.png>) 
 
 El fichero se encuentra ahora en la caja de *committed del File status Lifecycle*.  
   
